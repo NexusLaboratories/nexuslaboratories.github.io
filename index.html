@@ -1,529 +1,105 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)https://www.thinkwithportals.com/music.php -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Official Portal 2 Website - Music</title>
-		<link rel="image_src" href="https://www.thinkwithportals.com/images/assets/cover_thumb.jpg"> 
-		<meta name="description" content="Download music and ringtones from Portal 2.">
-		
-		<link rel="shortcut icon" href="https://www.thinkwithportals.com/images/favicon.ico">
-		<link rel="stylesheet" href="./index_files/music_v3.css" type="text/css">
-		
-		<script language="javascript" src="./index_files/audio-player.js.download"></script>
-		<script language="javascript" src="./index_files/jquery-1.2.6.min.js.download"></script>
+<html>
+<head>
 
-		<script type="text/javascript">
-			AudioPlayer.setup( 'swf/audio-player.swf', {
-							transparentpagebg: 'yes',
-							width: 180,
-							noinfo: true
-			} );
+<!-- Styles -->
+<style>
+	body
+	{
+		background-image: url(images/tile_bg.jpg);
+		background-repeat: repeat;
+		background-attachment: fixed; 
+        background-size: 100% 50%;
+	}
 	
-			AudioPlayer.embed('19-Turret_Wife_Serenade', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/01/mp3/19-Turret_Wife_Serenade.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Turret Wife Serenade' });
-			AudioPlayer.embed('01_Science_is_Fun', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/01/mp3/01_Science_is_Fun.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Science is Fun'});
-			AudioPlayer.embed('12-The_Friendly_Faith_Plate', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/01/mp3/12-The_Friendly_Faith_Plate.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'The Friendly Faith Plate'});
-			AudioPlayer.embed('04-The_Courtesy_Call', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/01/mp3/04-The_Courtesy_Call.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'The Courtesy Call'});
-			AudioPlayer.embed('15-I_Saw_a_Deer_Today', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/01/mp3/15-I_Saw_a_Deer_Today.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'I Saw a Deer Today'});
-			AudioPlayer.embed('21-Comedy_Equals_Tragedy_Plus_Time', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/01/mp3/21-Comedy_Equals_Tragedy_Plus_Time.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Comedy Equals Tragedy Plus Time'});
-			
-			AudioPlayer.embed('Portal2-02-Halls_of_Science_4', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2-02-Halls_of_Science_4_ringtone.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Halls of Science' });
-			AudioPlayer.embed('Portal2-13-Music_of_the_Spheres', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2-13-Music_of_the_Spheres_ringtone.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Music Of The Spheres' });
-			AudioPlayer.embed('Portal2-14-You_Are_Not_Part_Of_The_Control_Group', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2-14-You_Are_Not_Part_Of_The_Control_Group_ringtone.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'You Are Not Part Of The Control Group' });
-			AudioPlayer.embed('Portal2-16-PotatOS_Lament', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2-16-PotatOS_Lament_ringtone.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'PotatOS Lament' });
-			AudioPlayer.embed('Portal2-01-You_Will_Be_Perfect', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2-01-You_Will_Be_Perfect_ringtone.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'You Will Be Perfect' });
-			AudioPlayer.embed('Portal2-08-Bring_Your_Daughter_To_Work_Day', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2-08-Bring_Your_Daughter_To_Work_Day_ringtone.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Bring Your Daughter To Work Day' });
-			
-			AudioPlayer.embed('Portal2_sfx_button_positive', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_button_positive.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Button Positive' });
-			AudioPlayer.embed('Portal2_sfx_player_blue_paint', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_player_blue_paint.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Blue Paint' });
-			AudioPlayer.embed('Portal2_sfx_door_close', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_door_close.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Door Close' });
-			AudioPlayer.embed('Portal2_sfx_portal_gun_fire_orange', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_portal_gun_fire_orange.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Shoot Orange Portal' });
-			AudioPlayer.embed('Portal2_sfx_button_negative', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_button_negative.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Button Negative' });
-			AudioPlayer.embed('Portal2_sfx_portal_gun_fire_blue', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_portal_gun_fire_blue.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Shoot Blue Portal' });
-			AudioPlayer.embed('Portal2_sfx_door_open', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_door_open.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Door Open' });
-			AudioPlayer.embed('Portal2_sfx_turret_machine_gun', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/mp3/Portal2_sfx_turret_machine_gun.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Turret Machine Gun' });
-		
-			AudioPlayer.embed('Portal2-01-Reconstructing_More_Science', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/mp3/Portal2-01-Reconstructing_More_Science_RT.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Reconstructing More Science' });
-			AudioPlayer.embed('Portal2-10-Your_Precious_Moon', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/mp3/Portal2-10-Your_Precious_Moon_RT.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Your Precious Moon' });
-			AudioPlayer.embed('Portal2-12-Cara_Mia_Addio', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/mp3/Portal2-12-Cara_Mia_Addio_RT.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Cara Mia Addio' });
-			AudioPlayer.embed('Portal2-13-Want_You_Gone', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/mp3/Portal2-13-Want_You_Gone_RT.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Want You Gone' });
-			AudioPlayer.embed('Portal2-16-Some_Assembly_Required', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/mp3/Portal2-16-Some_Assembly_Required_RT.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Some Assembly Required' });
-			AudioPlayer.embed('Portal2-24-Robots_FTW', {soundFile:'http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/mp3/Portal2-24-Robots_FTW_RT.mp3', autostart: 'no', encoded: true, loader: '2ab2e2', titles:'Robots FTW' });
-			
-		</script><style type="text/css" media="screen">#19-Turret_Wife_Serenade {visibility:hidden}#01_Science_is_Fun {visibility:hidden}#12-The_Friendly_Faith_Plate {visibility:hidden}#04-The_Courtesy_Call {visibility:hidden}#15-I_Saw_a_Deer_Today {visibility:hidden}#21-Comedy_Equals_Tragedy_Plus_Time {visibility:hidden}#Portal2-02-Halls_of_Science_4 {visibility:hidden}#Portal2-13-Music_of_the_Spheres {visibility:hidden}#Portal2-14-You_Are_Not_Part_Of_The_Control_Group {visibility:hidden}#Portal2-16-PotatOS_Lament {visibility:hidden}#Portal2-01-You_Will_Be_Perfect {visibility:hidden}#Portal2-08-Bring_Your_Daughter_To_Work_Day {visibility:hidden}#Portal2_sfx_button_positive {visibility:hidden}#Portal2_sfx_player_blue_paint {visibility:hidden}#Portal2_sfx_door_close {visibility:hidden}#Portal2_sfx_portal_gun_fire_orange {visibility:hidden}#Portal2_sfx_button_negative {visibility:hidden}#Portal2_sfx_portal_gun_fire_blue {visibility:hidden}#Portal2_sfx_door_open {visibility:hidden}#Portal2_sfx_turret_machine_gun {visibility:hidden}#Portal2-01-Reconstructing_More_Science {visibility:hidden}#Portal2-10-Your_Precious_Moon {visibility:hidden}#Portal2-12-Cara_Mia_Addio {visibility:hidden}#Portal2-13-Want_You_Gone {visibility:hidden}#Portal2-16-Some_Assembly_Required {visibility:hidden}#Portal2-24-Robots_FTW {visibility:hidden}</style>
-		
-		<script type="text/javascript">
-		function TogglePlayStop(buttonToHide, buttonToDisplay) {
-			
-			// change all buttons to on or off			
-			$(".play_button").show();
-			$(".stop_button").hide();
-			document.getElementById(buttonToHide).style.display = 'none';
-			document.getElementById(buttonToDisplay).style.display = 'block';
-			
-		}
-		</script>
-		
-	<style type="text/css">:root zeus-ad, :root topadblock, :root span[id^="ezoic-pub-ad-placeholder-"], :root guj-ad, :root div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"], :root div[id^="yandex_ad"], :root div[id^="vuukle-ad-"], :root div[id^="rc-widget-"], :root div[id^="lazyad-"], :root div[id^="js-dfp-"], :root div[id^="gtm-ad-"], :root div[id^="gpt_ad_"], :root div[id^="div-gpt-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="advads_"], :root div[id^="adspot-"], :root div[id^="ads300_250-widget-"], :root div[id^="ads300_100-widget-"], :root div[id^="ads250_250-widget-"], :root div[id^="adrotate_widgets-"], :root div[id^="adngin-"], :root div[id^="adfox_"], :root div[id^="ad_script_"], :root div[id^="ad-server-"], :root div[id^="ad-gpt-"], :root div[id^="ad-div-"], :root div[id*="ScriptRoot"], :root div[id*="MarketGid"], :root div[data-mpu1], :root div[data-insertion], :root div[data-id-advertdfpconf], :root div[data-google-query-id], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-content="Advertisement"], :root div[data-alias="300x250 Ad 2"], :root div[data-alias="300x250 Ad 1"], :root div[data-adzone], :root div[data-adunit-path], :root div[data-adname], :root div[data-ad-wrapper], :root div[data-ad-targeting], :root div[data-ad-placeholder], :root div[class^="s-dfp-"], :root div[class^="native-ad-"], :root div[data-dfp-id], :root div[class^="kiwi-ad-wrapper"], :root div[aria-label="Ads"], :root display-ads, :root aside[id^="advads_ad_widget-"], :root aside[id^="adrotate_widgets-"], :root article.ad, :root ark-top-ad, :root app-advertisement, :root app-ad, :root amp-embed[type="taboola"], :root amp-connatix-player, :root amp-ad-custom, :root ad-shield-ads, :root ad-desktop-sidebar, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://www.vfreecams.com/in/?track="], :root a[href^="https://www.rabbits.webcam/?id="], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="https://www.passeura.com/"], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root a[href^="https://www.oboom.com/ref/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="https://www.nudeidols.com/cams/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root a[href^="https://www.jackery.com?aff="] > img, :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.infowarsstore.com/"] > img, :root a[href^="https://www.highperformancegate.com/"], :root a[href^="https://www.healthrangerstore.com/"] > img, :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root div[class^="Display_displayAd"], :root a[href^="https://www.sheetmusicplus.com/?aff_id="], :root a[href^="https://www.bang.com/?aff="], :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="https://webroutetrk.com/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="https://wantopticalfreelance.com/"], :root a[href^="https://waisheph.com/"], :root a[href^="https://uncensored.game/"], :root a[href^="https://twinrdsyn.com/"], :root a[href^="https://tupitea.co/"], :root a[href^="https://ttf.trmobc.com/"], :root a[href^="https://trusted-click-host.com/"], :root a[href^="https://trk.watchlivesports4k.club/"], :root a[href^="https://trk.moviesflix4k.xyz/"], :root a[href^="https://trf.bannerator.com/"], :root a[href^="https://trappist-1d.com/"], :root a[href^="https://tragency-clesburg.icu/"], :root a[href^="https://traffdaq.com/"], :root a[href^="https://tracking.trackcasino.co/"], :root a[href^="https://tracking.comfortclick.eu/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="https://track.interactivegf.com/"], :root a[href^="https://vlnk.me/"], :root a[href^="https://track.healthtrader.com/"], :root a[href^="https://track.effiliation.com/servlet/effi.click?"] > img, :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="https://tm-offers.gamingadult.com/"], :root a[href^="https://tracking.gitads.io/"], :root a[href^="https://taghaugh.com/"], :root a[href^="https://t.mobtya.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="https://syndication.dynsrvtbg.com/"], :root a[href^="https://streamate.com/landing/click/"], :root a[href^="https://s.zlink2.com/"], :root a[href^="https://reachtrgt.com/"], :root a[href^="https://queersodadults.com/"], :root a[href^="https://promo-bc.com/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root a[href^="https://pongidsrunback.com/"], :root a[href^="https://pcm.bannerator.com/"], :root iframe[id^="google_ads_frame"], :root a[href^="https://pb-track.com/"], :root a[href^="https://partners.fxoro.com/click.php?"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://torrentsafeguard.com/?aid="], :root a[href^="https://offers.refchamp.com/"], :root a[href^="https://ndt5.net/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root a[href^="https://cam4com.go2cloud.org/"], :root a[href^="https://my-movie.club/"], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href^="https://movie.download-file.org/"], :root div[id^="ezoic-pub-ad-"], :root a[href^="https://mk-cdn.net/"], :root .trc_rbox_div .syndicatedItemUB, :root [href^="https://zone.gotrackier.com/"], :root a[href^="https://meet-to-fuck.com/"], :root [href^="https://www.herbanomic.com/"] > img, :root a[href^="https://maymooth-stopic.com/"], :root div[id^="google_dfp_"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="https://look.utndln.com/"], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="https://lobimax.com/"], :root a[href^="https://lead1.pl/"], :root a[href^="https://refpazkjixes.top/"], :root a[href^="https://landing.brazzersplus.com/"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://ads.leovegas.com/redirect.aspx?"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://itubego.com/video-downloader/?affid="], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="https://iac.ampxdirect.com/"], :root a[href^="https://go.zybrdr.com"], :root [href^="http://join.michelle-austin.com/"], :root a[href^="https://go.xxxiijmp.com"], :root a[href*=".zlinkm.com/"], :root a[href^="https://go.xtbaffiliates.com/"], :root a[href^="https://thaudray.com/"], :root [data-role="tile-ads-module"], :root a[href^="https://adsrv4k.com/"], :root a[href^="https://go.xlviirdr.com"], :root .card-captioned.crd > .crd--cnt > .s2nPlayer, :root [data-css-class="dfp-inarticle"], :root a[href^="https://go.tmrjmp.com"], :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://go.skinstrip.net"][href*="?campaignId="], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="//lambingsyddir.com/"], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="https://go.ebrokerserve.com/"], :root a[href^="https://ismlks.com/"], :root [href^="https://www.mypillow.com/"] > img, :root a[href^="https://azpresearch.club/"], :root a[href^="https://go.xlirdr.com"], :root a[href^="https://track.afftck.com/"], :root a[href^="https://gohere.pl/"], :root a[href^="https://go.cmrdr.com/"], :root a[href^="https://www.bebi.com"], :root a[href^="https://loboclick.com"], :root iframe[src^="https://pagead2.googlesyndication.com/"], :root a[href^="http://www.onwebcam.com/random?t_link="], :root a[href^="https://get2nesoft1.ru/"], :root [href^="https://kingered-banctours.com/"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root a[href^="https://geniusdexchange.com/"], :root a[href^="https://aj1070.online/"], :root a[href^="https://frameworkdeserve.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://financeads.net/tc.php?"], :root bottomadblock, :root a[href^="https://fertilitycommand.com/"], :root a[href^="https://bluedelivery.pro/"], :root a[href^="https://fast-redirecting.com/"], :root a[href^="https://fakelay.com/"], :root a[href^="https://medleyads.com/"], :root div[data-native-ad], :root AD-SLOT, :root a[href^="https://engine.trackingdesks.com/"], :root a[href^="https://engine.blueistheneworanges.com/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://dianches-inchor.com/"], :root a[href^="https://go.admjmp.com/"], :root amp-fx-flying-carpet, :root a[href^="https://dfsdkkka.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href^="https://deliver.tf2www.com/"], :root [href^="https://www.targetingpartner.com/"], :root [href^="https://detachedbates.com/"], :root a[href^="https://deliver.ptgncdn.com/"], :root a[href^="https://datingbests.life/"], :root #kt_player > a[target="_blank"], :root a[href^="https://cpartner.bdswiss.com/"], :root a[href^="https://clixtrac.com/"], :root AD-TRIPLE-BOX, :root a[href^="https://click.hoolig.app/"], :root img[src^="https://images.purevpnaffiliates.com"], :root a[href^="https://porntubemate.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="https://clickadilla.com/"], :root a[href^="https://click.dtiserv2.com/"], :root a[href^="https://go.xlvirdr.com"], :root a[href^="https://claring-loccelkin.com/"], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://aaucwbe.com/"], :root a[href^="https://cams.imagetwist.com/in/?track="], :root a[href^="https://mob1ledev1ces.com/"], :root a[href^="https://explore.findanswersnow.net/"], :root a[href^="https://camfapr.com/landing/click/"], :root a[href^="https://affcpatrk.com/"], :root a[href^="https://bongacams2.com/track?"], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="https://bngpt.com/"], :root #topstuff > #tads, :root a[href^="https://black77854.com/"], :root a[href^="https://burpee.xyz/"], :root a[href*=".flndmyiove.net/"], :root [href^="http://join.trannies-fuck.com/"], :root [href^="http://www.fleshlightgirls.com/"], :root a[href^="https://bestdatinghere.life/"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[href^="https://banners.livepartners.com/"], :root a[href^="https://m.do.co/c/"] > img, :root div[id^="sticky_ad_"], :root a[href^="https://avtub.click/assets/link.php"], :root a[href^="https://go.gldrdr.com/"], :root [href^="https://www.cloudways.com/en/?id"], :root a[href^="https://as.sexad.net/"], :root a[href^="https://bestcond1tions.com/"], :root a[href^="https://takeallsoft.ru/"], :root a[href^="https://as.conjectwatson.com/"], :root [href="https://masstortfinancing.com"] img, :root a[href^="https://bongacams10.com/track?"], :root [data-ez-name], :root a[href^="https://awecrptjmp.com/"], :root a[href^="https://someperceptionparade.com/"], :root a[href^="https://galaxyroms.net/?scr="], :root a[href^="https://albionsoftwares.com/"], :root display-ad-component, :root a[href^="https://ak.hetaruwg.com/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href^="https://go.alxbgo.com/"], :root a[href^="https://aff-ads.stickywilds.com/"], :root a[href^="https://t.hrtye.com/"], :root a[href^="https://ads.cdn.live/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://intenseaffiliates.com/redirect/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://affpa.top/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://adjoincomprise.com/"], :root a[href^="https://t.grtyi.com/"], :root a[href^="https://myusenet.xyz/"], :root [href^="http://misslinkvocation.com/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root [href^="https://r.kraken.com/"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root a[href^="http://secure.vivid.com/track/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root a[href^="https://misspkl.com/"], :root [href^="http://clicks.totemcash.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root a[href^="https://msecure117.com/"], :root a[href^="https://ad.kubiccomps.icu/"], :root a[href^="https://adswick.com/"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="https://ad.atdmt.com/"], :root a[href^="https://meet-sex-here.com/"], :root [data-m-ad-id], :root a[href^="https://a-ads.com/"], :root a[href^="http://www.mrskin.com/tour"], :root a[href^="https://k2s.cc/pr/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.coiwqe.site/"], :root iframe[src^="http://www.adpeepshosted.com/"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="http://www.FriendlyDuck.com/"], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root .trc_rbox .syndicatedItem, :root a[href^="https://1free33style.com/"], :root a[href^="http://rs-stripe.wsj.com/stripe/redirect"], :root a[href^="http://tour.mrskin.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root [onclick*="content.ad/"], :root a[href^="http://pityhostngco2.xyz/"], :root a[href^="http://partners.etoro.com/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root [href^="https://www.reimageplus.com/"], :root a[href^="https://engine.phn.doublepimp.com/"], :root a[href^="http://intent.bingads.com/"], :root a[href^="https://cagothie.net/"], :root a[href^="https://watchmygirlfriend.tv/"], :root a[href^="http://go.xtbaffiliates.com/"], :root a[href^="http://www.advcashpro.com/aff/"], :root a[href^="http://deloplen.com/"], :root a[href^="http://d2.zedo.com/"], :root .rc-cta[data-target], :root [href^="http://go.cm-trk2.com/"], :root a[href^="http://click.payserve.com/"], :root a[href^="https://bs.serving-sys.com"], :root [class^="chp_ads_block"], :root a[href^="http://betahit.click/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root [href^="https://noqreport.com/"] > img, :root a[href^="//wagerprocuratorantiterrorist.com/"], :root a[href^="http://adserver.adreactor.com/"], :root [href^="https://cipledecline.buzz/"], :root a[href^="https://earandmarketing.com/"], :root a[href^="http://adf.ly/?id="], :root [href^="http://homemoviestube.com/"], :root a[href^="http://ad.doubleclick.net/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="//syndication.dynsrvtbg.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root [class^="s2nPlayer"], :root a[href^="https://chaturbate.jjgirls.com/?track="], :root a[href^="https://ausoafab.net/"], :root a[href^="//benoopto.com/"], :root a[href^="https://dooloust.net/"], :root [href^="https://www.mypatriotsupply.com/"] > img, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root a[href="//rufflycouncil.com/"], :root a[href*="https://www.sweetdeals.com/"] img, :root div[data-native_ad], :root a[href*=".zlink9.com/"], :root [data-d-ad-id], :root a[href*=".engine.adglare.net/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="//go.xlviiirdr.com"], :root [data-dynamic-ads], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root [data-ad-width], :root [href^="https://join.playboyplus.com/track/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="https://axdsz.pro/"], :root a[href^="http://bodelen.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://ptapjmp.com/"], :root DFP-AD, :root a[href^="http://allaptair.club/"], :root a[href^="//go.eabids.com/"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root [href^="https://cpa.10kfreesilver.com/"], :root a[href^="https://a.bestcontentfood.top/"], :root a[href^="https://reinstandpointdumbest.com/"], :root a[href*="http://MyPillow.com"] > img, :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://wct.link/"], :root [href^="https://goldforyourfuture.com/clk.trk"] img, :root [href^="https://infinitytrk.com/"], :root [onclick^="location.href='http://www.reimageplus.com"], :root a[href^="https://pl.premium4kflix.website/"], :root [id^="chp_ads_block"], :root a[href^="https://go.julrdr.com/"], :root a[href^="//chrif8kdstie.com/"], :root [id^="section-ad-banner"], :root .commercial-unit-mobile-top > div[data-pla="1"], :root a[href^="https://www.sweetdeals.com"], :root a[href^="https://track.bruceads.com/"], :root a[href^="https://t.aslnk.link/"], :root [href^="https://zstacklife.com/"] img, :root [href^="https://www.restoro.com/"], :root [data-ad-manager-id], :root a[href^="https://fleshlight.sjv.io/"], :root div[id^="zergnet-widget"], :root [href^="https://www.mystore.com/"] > img, :root div[id^="ad-position-"], :root a[href^="http://adultfriendfinder.com/go/page/landing"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://leg.xyz/?track="], :root a[href^="http://bc.vc/?r="], :root [href^="https://www.brighteonstore.com/products/"] img, :root a[href^="https://syndication.exoclick.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root a[href^="https://go.trackitalltheway.com/"], :root a[href^="https://go.cmtaffiliates.com/"], :root [data-name="adaptiveConstructorAd"], :root [href^="https://optimizedelite.com/"] > img, :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root a[href^="//thaudray.com/"], :root a[href*=".trust.zone"], :root a[href^="http://trk.mdrtrck.com/"], :root [href^="https://shrugartisticelder.com"], :root div[id^="crt-"][style], :root a[href^="https://s.zlink1.com/"], :root a[href^="http://adultgames.xxx/"], :root a[href^="https://traffic.bannerator.com/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="https://vo2.qrlsx.com/"], :root [href^="https://www.avantlink.com/click.php"] img, :root a[href^="https://losingoldfry.com/"], :root div[id^="ad-inserter-"], :root .scroll-fixable.rail-right > .deals-rail, :root a[href^="https://see.kmisln.com/"], :root [href^="https://routewebtk.com/"], :root a[href^="https://oackoubs.com/"], :root a[href^="https://awptjmp.com/"], :root a[href^="https://go.goasrv.com/"], :root .commercial-unit-mobile-top > .v7hl4d, :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root [href^="https://stvkr.com/"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="], :root ADS-RIGHT, :root [href^="https://mystore.com/"] > img, :root a[href^="https://moneynow.one/"], :root [href^="https://mypatriotsupply.com/"] > img, :root [href^="https://mylead.global/stl/"] > img, :root .vid-present > .van_vid_carousel__padding, :root a[href^="https://syndication.optimizesrv.com/"], :root [id^="google_ads_iframe"], :root [href^="https://istlnkcl.com/"], :root a[href^="https://playuhd.host/"], :root a[href^="https://5hjdbfjfd5.monster/"], :root [href^="https://www.hostg.xyz/"] > img, :root .section-subheader > .section-hotel-prices-header, :root [href^="http://join.ts-dominopresley.com/"], :root [href^="https://go.affiliatexe.com/"], :root a[href^="https://meet-sexhere.com/"], :root [href^="https://go.4rabettraff.com/"], :root [href^="https://glersakr.com/"], :root a[href^="https://click.a-ads.com/"], :root a[href^="https://wittered-mainging.com/"], :root [href^="https://engine.gettopple.com/"], :root [href^="https://awbbjmp.com/"], :root a[href^="https://gghf.mobi/"], :root [href^="https://affect3dnetwork.com/track/"], :root a[href^="https://go.currency.com/"], :root [href^="http://www.mypillow.com/"] > img, :root a[href^="//coarsewary.com/"], :root a[href^="https://a.montangop.top/"], :root [href^="https://v.investologic.co.uk/"], :root a[href^="https://dialling-abutory.com/"], :root div[id^="div-ads-"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root a[href^="https://www.sugarinstant.com/?partner_id="], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root div[id^="advads-"], :root div[data-role="sidebarAd"], :root [href^="https://join3.bannedsextapes.com"], :root div[data-spotim-slot], :root [href^="https://antiagingbed.com/discount/"] > img, :root a[href^="https://go.247traffic.com/"], :root [href^="https://join.girlsoutwest.com/"], :root [href^="http://trafficare.net/"], :root a[href^="https://adserver.adreactor.com/"], :root [href^="http://join.shemalesfromhell.com/"], :root [id^="ad_slider"], :root [href^="https://clk.right-wing-health.com/"], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root [href^="http://join.shemale.xxx/"], :root [href^="https://ilovemyfreedoms.com/landing-"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root a[href^="http://cam4com.go2cloud.org/aff_c?"], :root a[href^="https://www.chngtrack.com/"], :root a[href^="https://cpmspace.com/"], :root [href^="https://freecourseweb.com/"] > .sitefriend, :root a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"], :root [href^="http://join.rodneymoore.com/"], :root a[href^="https://uncensored3d.com/"], :root a[href^="https://creacdn.top-convert.com/"], :root [href^="https://go.xlrdr.com"], :root [id^="div-gpt-ad"], :root .ob_container .item-container-obpd, :root gpt-ad, :root [href^="http://www.pingperfect.com/aff.php"], :root a[href^="https://scurewall.co/"], :root [name^="google_ads_iframe"], :root a[href^="https://landing1.brazzersnetwork.com"], :root #slashboxes > .deals-rail, :root [href^="http://globsads.com/"], :root [href^="http://mypillow.com/"] > img, :root [href^="//ngeoziadiyc4hi2e.com/"], :root a[href^="https://go.xxxjmp.com"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root #leader-companion > a[href], :root [data-desktop-ad-id], :root [href^="https://wct.link/"], :root [href^="https://traffserve.com/"], :root a[href^="https://1startfiledownload1.com/"], :root a[href^="https://a.adtng.com/"], :root a[href^="http://static.fleshlight.com/images/banners/"], :root [href="https://ourgoldguy.com/contact/"] img, :root [href="https://www.masstortfinancing.com/"] > img, :root a[href^="https://lnkxt.bannerator.com/"], :root div[id^="ad_position_"], :root a[href^="https://ovb.im/"], :root a[href^="http://hotcandyland.com/partner/"], :root [href="https://jdrucker.com/gold"] > img, :root [href^="https://goldcometals.com/clk.trk"], :root [data-mobile-ad-id], :root a[href^="http://affiliates.thrixxx.com/"], :root #searchResultsList > div > div[onclick$="'inline.ad'});"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root [data-template-type="nativead"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="https://go.xlivrdr.com"], :root a[href^="https://www.onlineusershielder.com/torrent-guard/?"], :root [data-freestar-ad], :root [data-ad-cls], :root [id^="ad-wrap-"], :root div[id^="taboola-stream-"], :root [href^="https://go.astutelinks.com/"], :root [href^="http://join.hardcoreshemalevideo.com/"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="https://porngames.adult/?SID="], :root a[href^="http://go.247traffic.com/"], :root [href^="http://residenceseeingstanding.com/"], :root a[href^="https://www.adskeeper.com"], :root a[href^="//agacelebir.com/"], :root [href^="https://totlnkcl.com/"], :root div[data-adunit], :root app-large-ad, :root [href^="https://turtlebids.irauctions.com/"] img, :root a[href^="http://www.onclickmega.com/jump/next.php?"], :root .trc_rbox_border_elm .syndicatedItem, :root [class^="amp-ad-"], :root div[id^="_vdo_ads_player_ai_"], :root a[href^="http://enter.anabolic.com/track/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="https://delivery.porn.com/"], :root [href^="https://click2cvs.com/"], :root a[href^="https://a2.adform.net/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root [data-revive-zoneid], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root AMP-AD, :root [href^="https://mypillow.com/"] > img, :root [href^="https://ad.admitad.com/"], :root .trc_rbox_div .syndicatedItem, :root a-ad, :root a[href^="http://go.fpmarkets.com/"], :root [data-ad-module], :root .grid > .container > #aside-promotion, :root [href^="https://trackfin.asia/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="https://spygasm.com/track?"], :root a[href^="https://agacelebir.com/"], :root a[href*="//lkstrck2.com/"], :root .plistaList > .itemLinkPET, :root [href^="http://join.shemalepornstar.com/"], :root [data-advadstrackid], :root [href^="https://affiliate.fastcomet.com/"] > img, :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://awentw.com/"], :root [class^="div-gpt-ad"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://nutrientassumptionclaims.com/"], :root div[id^="ad_bnr_"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="https://speedsupermarketdonut.com/"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root [data-adblockkey], :root div.fadeInDown[id$="____equal"][class$="____equal"], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://odnxe.lncredlbiedate.com/"], :root a[href^="https://click.linksynergy.com/fs-bin/"], :root a[href^="https://join.virtualtaboo.com/track/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root [id^="ad_sky"], :root a[href^="https://americafirstpolls.com/"] { display: none !important; }</style></head>
-
-	<body>
-		<div class="music_background">
-			<div class="container">
-				<div class="showcase">
-					<div id="complete_dl_top">
-						<a href="http://media.steampowered.com/apps/portal2/soundtrack/Portal2-OST-Complete.zip">DOWNLOAD THE COMPLETE SOUNDTRACK</a>
-					</div>
-					<div id="soundtrack">
-						<div class="soundtrack_content">
-							<div class="soundtrack_item">
-								<div class="music_download_soundtrack" id="music_download_soundtrack_1">
-									<div><a href="http://media.steampowered.com/apps/portal2/soundtrack/01/Portal2-OST-Volume1.zip">Download Volume 1.zip<br>(contains 22 tracks)</a></div>
-								</div>
-							</div>
-							<div class="soundtrack_list" id="soundtrack_v1">
-							
-								<div class="track_left_col">
-									<ul>
-										<li>Science is Fun</li>
-										<li>Concentration Enhancing Menu Initialiser</li>
-										<li>9999999</li>
-										<li>The Courtesy Call</li>
-										<li>Technical Difficulties</li>
-										<li>Overgrowth</li>
-										<li>Ghost of Rattman</li>
-										<li>Haunted Panels</li>
-										<li>The Future Starts With You</li>
-										<li>There She Is</li>
-										<li>You Know Her</li>
-									</ul>
-								</div>
-								<div class="track_right_col">
-									<ul>
-										<li>The Friendly Faith Plate</li>
-										<li>15 Acres of Broken Glass</li>
-										<li>Love as a Construct</li>
-										<li>I Saw a Deer Today</li>
-										<li>Hard Sunshine</li>
-										<li>I Am Different</li>
-										<li>Adrenal Vapor</li>
-										<li>Turret Wife Serenade</li>
-										<li>I Made It All Up</li>
-										<li>Comedy Equals Tragedy Plus Time</li>
-										<li>Triple Laser Phase</li>
-									</ul>
-								</div>
-							</div> <!-- end soundtrack_v1 div -->
-						</div> <!-- end soundtrack_content div -->
-					</div><!-- end soundtrack div -->
-					
-					<div id="ringtones">
-						<div class="ringtones_content">
-							
-							<div class="preview_ringtones">
-								
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Turret Wife Serenade </span>	
-										</div>
-										<div id="19-Turret_Wife_Serenade" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4a/19-Turret_Wife_Serenade.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4r/19-Turret_Wife_Serenade.m4r">iPhone</a>
-										</div>
-										
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">											
-											<span>Science Is Fun</span>
-										</div>
-										<div id="01_Science_is_Fun" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4a/01_Science_is_Fun.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4r/01_Science_is_Fun.m4r">iPhone</a>
-										</div>
-										
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>The Friendly Faith Plate</span>
-										</div>
-										<div id="12-The_Friendly_Faith_Plate" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4a/12-The_Friendly_Faith_Plate.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4r/12-The_Friendly_Faith_Plate.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>The Courtesy Call</span>
-										</div>
-										<div id="04-The_Courtesy_Call" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4a/04-The_Courtesy_Call.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4r/04-The_Courtesy_Call.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>I Saw a Deer Today</span>															
-										</div>
-										<div id="15-I_Saw_a_Deer_Today" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4a/15-I_Saw_a_Deer_Today.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4r/15-I_Saw_a_Deer_Today.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Comedy Equals Tragedy Plus Time</span>
-										</div>
-										<div id="21-Comedy_Equals_Tragedy_Plus_Time" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4a/21-Comedy_Equals_Tragedy_Plus_Time.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/01/m4r/21-Comedy_Equals_Tragedy_Plus_Time.m4r">iPhone</a>
-										</div>
-									</div>
-									
-								
-							</div>							
-						</div>
-					</div><!-- end ringtones div -->
-					
-					<div id="soundtrack_2">
-						<div class="soundtrack_content">
-							<div class="soundtrack_item">
-								<div class="music_download_soundtrack" id="music_download_soundtrack_2">
-									<div><a href="http://media.steampowered.com/apps/portal2/soundtrack/02/Portal2-OST-Volume-2.zip">Download Volume 2.zip<br>(contains 18 tracks)</a></div>
-								</div>
-							</div>
-							<div class="soundtrack_list" id="soundtrack_v2">
-							
-								<div class="track_left_col">
-									<ul>
-										<li>You Will Be Perfect</li>
-										<li>Halls of Science 4</li>
-										<li>Bots Build Bots</li>
-										<li>An Accent Beyond</li>
-										<li>Robot Ghost Story</li>
-										<li>Die Cut Laser Dance</li>
-										<li>Turret Redemption Line</li>
-										<li>Bring Your Daughter to Work Day</li>
-										<li>Almost at Fifty Percent</li>
-										<li>Don�t Do It</li>
-										
-									
-									</ul>
-								</div>
-								<div class="track_right_col">
-									<ul>
-										<li>I AM NOT A MORON</li>
-										<li>Vitrification Order</li>
-										<li>Music of the Spheres</li>
-										<li>You Are Not Part of the Control Group</li>
-										<li>Forwarding the Cause of Science </li>
-										<li>PotatOS Lament</li>
-										<li>The Reunion</li>
-										<li>Music of the Spheres 2 (Incendiary Lemons)</li>
-
-									</ul>
-
-								</div>
-							</div> <!-- end soundtrack_v1 div -->
-						</div> <!-- end soundtrack_content div -->
-					</div><!-- end soundtrack div -->
-					
-					<div id="ringtones_v2_music">
-						<div class="ringtones_content">
-							<div class="preview_ringtones">
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Halls of Science</span>	
-										</div>
-										<div id="Portal2-02-Halls_of_Science_4" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4a/Portal2-02-Halls_of_Science_4_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4r/Portal2-02-Halls_of_Science_4_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Music of the Spheres</span>	
-										</div>
-										<div id="Portal2-13-Music_of_the_Spheres" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4a/Portal2-13-Music_of_the_Spheres_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4r/Portal2-13-Music_of_the_Spheres_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>You Are Not Part Of The Control Group</span>	
-										</div>
-										<div id="Portal2-14-You_Are_Not_Part_Of_The_Control_Group" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4a/Portal2-14-You_Are_Not_Part_Of_The_Control_Group_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4r/Portal2-14-You_Are_Not_Part_Of_The_Control_Group_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>PotatOS Lament</span>	
-										</div>
-										<div id="Portal2-16-PotatOS_Lament" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4a/Portal2-16-PotatOS_Lament_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4r/Portal2-16-PotatOS_Lament_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>You Will Be Perfect</span>	
-										</div>
-										<div id="Portal2-01-You_Will_Be_Perfect" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4a/Portal2-01-You_Will_Be_Perfect_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4r/Portal2-01-You_Will_Be_Perfect_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Bring Your Daughter To Work Day</span>	
-										</div>
-										<div id="Portal2-08-Bring_Your_Daughter_To_Work_Day" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4a/Portal2-08-Bring_Your_Daughter_To_Work_Day_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/music/m4r/Portal2-08-Bring_Your_Daughter_To_Work_Day_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									
-									
-								
-							</div>							
-						</div>
-					</div><!-- end ringtones_v2_music div -->
-					
-					<div id="ringtones_v2_sfx">
-						<div class="ringtones_content">
-							
-							<div class="preview_ringtones">
-								
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Button Positive</span>	
-										</div>
-										<div id="Portal2_sfx_button_positive" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_button_positive.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_button_positive.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Blue Paint</span>	
-										</div>
-										<div id="Portal2_sfx_player_blue_paint" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_player_blue_paint.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_player_blue_paint.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Door Close</span>	
-										</div>
-										<div id="Portal2_sfx_door_close" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_door_close.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_door_close.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Shoot Orange Portal</span>	
-										</div>
-										<div id="Portal2_sfx_portal_gun_fire_orange" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_portal_gun_fire_orange.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_portal_gun_fire_orange.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Button Negative</span>	
-										</div>
-										<div id="Portal2_sfx_button_negative" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_button_negative.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_button_negative.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Shoot Blue Portal</span>	
-										</div>
-										<div id="Portal2_sfx_portal_gun_fire_blue" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_portal_gun_fire_blue.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_portal_gun_fire_blue.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Door Open</span>	
-										</div>
-										<div id="Portal2_sfx_door_open" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_door_open.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_door_open.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Turret Machine Gun</span>	
-										</div>
-										<div id="Portal2_sfx_turret_machine_gun" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4a/Portal2_sfx_turret_machine_gun.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/02/ringtones/sfx/m4r/Portal2_sfx_turret_machine_gun.m4r">iPhone</a>
-										</div>
-									</div>
-									
-								
-							</div>							
-						</div>
-					</div><!-- end ringtones_v2_sfx div -->
-					
-					<div id="soundtrack_3">
-						<div class="soundtrack_content">
-							<div class="soundtrack_item">
-								<div class="music_download_soundtrack" id="music_download_soundtrack_3">
-									<div><a href="http://media.steampowered.com/apps/portal2/soundtrack/03/Portal2-OST-Volume-3.zip">Download Volume 3.zip<br>(contains 24 tracks)</a></div>
-								</div>
-							</div>
-							<div class="soundtrack_list" id="soundtrack_v3">
-							
-								<div class="track_left_col">
-									<ul>
-										<li>Reconstructing More Science</li>
-										<li>Wheatley Science</li>
-										<li>Franken Turrets</li>
-										<li>Machiavellian Bach</li>
-										<li>Excursion Funnel</li>
-										<li>TEST</li>
-										<li>The Part Where He Kills You</li>
-										<li>Omg, What has He Done?</li>
-										<li>Bombs for Throwing at You</li>
-										<li>Your Precious Moon</li>
-										<li>Caroline Deleted</li>
-										<li>Cara Mia Addio!</li>								
-									</ul>
-								</div>
-								<div class="track_right_col">
-									<ul>
-										<li>Want You Gone</li>
-										<li>Spaaaaace</li>
-										<li>Space Phase</li>
-										<li>Some Assembly Required</li>
-										<li>Robot Waiting Room #1</li>
-										<li>Robot Waiting Room #2</li>
-										<li>Robot Waiting Room #3</li>
-										<li>Robot Waiting Room #4</li>
-										<li>Robot Waiting Room #5</li>
-										<li>Robot Waiting Room #6</li>
-										<li>You Saved Science</li>
-										<li>Robots FTW</li>
-									</ul>
-
-								</div>
-							</div> <!-- end soundtrack_v3 div -->
-						</div> <!-- end soundtrack_content div -->
-					</div><!-- end soundtrack 3 div -->
-					<div id="ringtones_v3_music">
-						<div class="ringtones_content">
-							<div class="preview_ringtones">
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Reconstructing More Science</span>	
-										</div>
-										<div id="Portal2-01-Reconstructing_More_Science" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4a/Portal2-01-Reconstructing_More_Science_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4r/Portal2-01-Reconstructing_More_Science_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Your Precious Moon</span>	
-										</div>
-										<div id="Portal2-10-Your_Precious_Moon" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4a/Portal2-10-Your_Precious_Moon_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4r/Portal2-10-Your_Precious_Moon_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Cara Mia Addio</span>	
-										</div>
-										<div id="Portal2-12-Cara_Mia_Addio" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4a/Portal2-12-Cara_Mia_Addio_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4r/Portal2-12-Cara_Mia_Addio_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Want You Gone</span>	
-										</div>
-										<div id="Portal2-13-Want_You_Gone" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4a/Portal2-13-Want_You_Gone_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4r/Portal2-13-Want_You_Gone_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Some Assembly Required</span>	
-										</div>
-										<div id="Portal2-16-Some_Assembly_Required" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4a/Portal2-16-Some_Assembly_Required_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4r/Portal2-16-Some_Assembly_Required_RT.m4r">iPhone</a>
-										</div>
-									</div>
-									<div class="ringtone_item">
-										<div class="music_title">
-											<span>Robots FTW</span>	
-										</div>
-										<div id="Portal2-24-Robots_FTW" style="visibility: visible;"></div>
-										<div class="music_download">
-											<a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4a/Portal2-24-Robots_FTW_RT.m4a">Android</a>, <a href="http://media.steampowered.com/apps/portal2/soundtrack/03/ringtones/music/m4r/Portal2-24-Robots_FTW_RT.m4r">iPhone</a>
-										</div>
-									</div>
-							</div>							
-						</div>
-					</div><!-- end ringtones_v3_music div -->
-					<div id="complete_dl_bottom">
-						<a id="complete_dl_bottom_link" href="http://media.steampowered.com/apps/portal2/soundtrack/Portal2-OST-Complete.zip">
-							Download the Complete Soundtrack.zip
-						</a>						
-						<div class="dl_text">(Contains all 3 volumes and 64 tracks)</div>	
-					</div>
-					<a href="http://www.thinkwithportals.com/turret_comic/" id="burn"><img src="./index_files/burn.jpg"></a>
-				</div><!-- end showcase div -->
-				<div style="clear:both"></div>
-				
-				<div class="footerwrapper">
-					<div class="footer">
-						<div class="footerlinks">
-							<div class="footerlink_ctn">
-								<a class="footerlink" href="http://www.thinkwithportals.com/purchase.php" onmouseover="$(this).children(&#39;img&#39;)[0].src=&#39;images/assets/btn_purchase_over.png&#39;" onmouseout="$(this).children(&#39;img&#39;)[0].src=&#39;images/assets/btn_purchase.png&#39;">
-									<img src="./index_files/btn_purchase.png">
-								</a>
-							</div>
-							<div class="footerlink_ctn">
-								<a class="footerlink" href="http://www.facebook.com/sharer.php?u=http://www.thinkwithportals.com/music.php" target="_blank" onmouseover="$(this).children(&#39;img&#39;)[0].src=&#39;images/assets/btn_share_over.png&#39;" onmouseout="$(this).children(&#39;img&#39;)[0].src=&#39;images/assets/btn_share.png&#39;">
-									<img src="./index_files/btn_share.png">
-								</a>
-							</div>
-							<div class="footerlink_ctn">
-								<a class="footerlink" href="http://www.thinkwithportals.com/" onmouseover="$(this).children(&#39;img&#39;)[0].src=&#39;images/assets/btn_thinkwith_over.png&#39;" onmouseout="$(this).children(&#39;img&#39;)[0].src=&#39;images/assets/btn_thinkwith.png&#39;">
-									<img src="./index_files/btn_thinkwith.png">
-								</a>
-							</div>
-							<div style="clear: left;"></div>
-							<div style="display: none;">
-								<img src="./index_files/btn_preorder_over.png">
-								<img src="./index_files/btn_downloads_over.png">
-								<img src="./index_files/btn_share_over.png">
-								<img src="./index_files/btn_thinkwith_over.png">
-							</div>
-						</div>
-						<div class="legal">
-							<img src="./index_files/footer_valve.png">
-						</div>
-						
-					</div>
-				</div>
-			</div><!-- end container div -->	
-
-		</div><!-- end background div -->		
-		
+	<style type="text/css">
+	body
+	{
+		font-family: Arial, sans-serif;
+		padding: 0 3%;
+	}
+	p
+	{
+		line-height: 1.4em;
+	}
+	
+	
+	div.box 
+	{
+	text-align: center;
+	}
+	
+	div.box2
+	{
+	text-align: center;
+	}
+	
+	div.navigation
+	{
+		text.align: center;
+	}
+	
+	div.box3
+	{
+	 text.align: center;
+	}
+	
+	div.showcase
+	{
+	 text.align: center;
+	}
+	
+	div.logo
+	{
+		text-align: center;
+	}
+	
+	.footer
+	{
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: transparent;
+	  color: black;
+	  text-align: center;
+	  font-family: verdana
+	}
+	
+	.footertext
+	{
+		color: black;
+		text-align:left
+	}
 	
 
+</style>
+
+<!-- title -->
+<title>Official Nexus Laboratories Website</title>
+
+<!-- meta -->
+<meta name="description" content="Information about Nexus Laboratories Games, Stories And More!">
+
+<!-- link -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<div class= "box2">
+	<h1 style="font-size:60px; font-family:verdana; text-align: center">We're Working On It!</h1>
+</div>
+
+<div class="footer">
+	<a href="https://gamejolt.com/@Nexuslabs"><img src="images/logo.png" alt="logo" align="bottom" style="width:1#200px;height:100px;"></a> Nexus Laboratories (C)2022<br>
+	<br> 
+</div>
 
 
-</body></html>
+
+
+</body>
+</html>
+
+
